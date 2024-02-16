@@ -1,0 +1,29 @@
+h3
+{
+font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+background-color: black;
+}
+
+canvas
+{
+animation-name : meh;
+animation-duration : 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes meh 
+{
+    from
+    {
+        box-shadow: 1px 1px 38px black;
+    }
+
+    to
+    {
+        box-shadow: 1px 1px 38px rgb(1, 250, 1);
+    }
+}
